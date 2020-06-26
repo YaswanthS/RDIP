@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  position: relative;
+}
+
+
+img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right:0;
+    top:0;
+}
+</style>
+</head>
+<body>
+
+<h>My Website</h>
+<p>....</p>
+
+
+  <img src="https://img.icons8.com/material/4ac144/256/contacts.png" alt="Cinque Terre" width="20" height="10">
+  
+</div>
+
+</body>
+</html>
