@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Assignment</title>
+<style>
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.my-image { position: relative; margin-top:12px;}
+label{
+width:240px;
+display:inline-block;
+}
+.reset {
+            margin: 75px;
+        }
+ </style>
+  </head>
+	
+   <body>
+      <a href = "https://www.iiit.ac.in/" target = "_self"> 
+         <img src = "https://www.iiit.ac.in/img/iiit-new.png" width="150" height="75" border = "0"/> 
+      </a>
+<div>
+  <div style="position: absolute; top: 0; right: 0; width: 100px; text-align:right;">
+  <a href = "https://serc.iiit.ac.in/rdip/" align="right">RDIP</a>
+  </div>
+
+<div class="topnav">
+  <a class="active" href="#homepage.html">Home</a>
+  <a href="#registration.html">Registration form</a>
+</div>
+<br>
+<br>
+<form>
+<label for="name">Firstname:</label>
+<input id="name" type="text"><br><br>
+<label for="email">Email:</label>
+<input id="email" type = "text"><br><br>
+<label for="pno">Phone No:</label>
+<input id="pno" type="number"><br><br>
+<label> 
+Gender :
+</label>
+<input type="radio" name="male"/> Male 
+<input type="radio" name="female"/> Female <input type="radio" name="other"/> Other<br>
+<br><label>
+Reason for RDIP :
+</label>
+<input type="checkbox" name="html"/> HTML 
+<input type="checkbox" name="css"/> CSS <input type="checkbox" name="js"/> JavaScript<br>
+<br>
+<input type="checkbox" name="agree"/> I declare above all details given by me are true<br>
+
+<a href="homepage.html">
+   <input type="button" value="Submit"/>
+</a> <button class="reset" type="reset" name="reset" value="Reset">Reset</button>
+ </body>
+</html>
